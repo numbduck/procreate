@@ -19,23 +19,23 @@ export default function DashboardPage() {
 
 
 
-  const statsData = [
-    {
-      id: 1,
-      title: "Total Tasks",
-      stat: 20,
-    },
-    {
-      id: 2,
-      title: "Completed",
-      stat: 10,
-    },
-    {
-      id: 3,
-      title: "Pending",
-      stat: 10,
-    },
-  ];
+  // const statsData = [
+  //   {
+  //     id: 1,
+  //     title: "Total Tasks",
+  //     stat: 20,
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Completed",
+  //     stat: 10,
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Pending",
+  //     stat: 10,
+  //   },
+  // ];
 
   const data = [
     {

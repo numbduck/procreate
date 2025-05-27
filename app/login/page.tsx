@@ -14,6 +14,7 @@ import {
 export default function LoginPage() {
   const router = useRouter();
 
+
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault(); // ✅ prevent page reload
 
@@ -23,9 +24,8 @@ export default function LoginPage() {
       password: data.get("password"),
       redirect: false,
     });
-
     if (res?.ok) {
-      router.push("/dashboard");
+      router.push("/products");
     } else {
       alert("Login failed. Please check your credentials.");
     }

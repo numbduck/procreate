@@ -9,13 +9,12 @@ import Typography from '@mui/material/Typography';
 
 export default function ProductCard({ product, onDelete, onEdit }) {
   return (
-    <Card sx={{ maxWidth: 345, height: '100%', display: 'flex', flexDirection: 'column' }}>
+    <Card sx={{ maxWidth: 345,  height: '100%', display: 'flex', flexDirection: 'column' }}>
       <CardMedia
         component="img"
         alt={product.title}
-        height="200"
         image={product.image_src}
-        sx={{ objectFit: 'cover' }}
+        sx={{ objectFit: 'cover', height: '200px' }}
       />
       <CardContent sx={{ flexGrow: 1 }}>
         <Typography gutterBottom variant="h6" component="div">
